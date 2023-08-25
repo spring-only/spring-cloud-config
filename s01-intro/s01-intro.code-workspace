@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "bicicleta-config-repo"
+		},
+		{
+			"path": "bicicleta-server"
+		},
+		{
+			"path": "bicicleta-config-server"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
