@@ -5,48 +5,53 @@ Section
     Lecture
 
 S01 | Introduccion
-    El problema
-    Soluciones previas al Spring Config Server
-    Conceptos de Spring Config Server
-    Configuraciones disponibles
+    Entendamos el contexto
+    Soluciones previas al Spring Cloud Config
+    Conceptos de Spring Cloud Config
 S02 | Configuración básica
     Git local, bootstrap
-    Orden de prioridad de variables
-    Refresh (Config Server y de la aplicacion cliente)
     Ambientes y ramas
+S03 | Orden de Prioridad
+    Orden de prioridad de variables en Java
+    Orden de prioridad de variables en Spring
+    Orden de prioridad de variables en Spring Boot
+S04 | Refresco de propiedades
+    Refresh (Config Server y de la aplicacion cliente)
     Inyectar variables diversas formas
+S05 | Propiedades encriptadas
     Secretos en los valores
+    Desencriptado en server
+    Desencriptado en client
     Errores y solución de problemas
-S03 | Backend File server
+S06 | Backend File server
     File server (Windows, Linux)
-S04 | Backend Github
+S07 | Backend Github
     Github publico
     Github con password
     Github con SSH
-S05 | Backend Bitbucket
+S08 | Backend Bitbucket
     Bitbucket publico
     Bitbucket con password
     Bitbucket con SSH
-S06 | Backend Azure
+S09 | Backend Azure
     Azure Repos
     Azure Keyvault
     Azure Table Storage
-S07 | Backend AWS
+S10 | Backend AWS
     AWS S3 Backend
     AWS Parameter Store
     AWS Secrets Manager
-S08 | Backend Database
+S11 | Backend Database
     JDBC Backend
         SQL server, encrypted
         MySQL
     Redis Backend
-S09 | Backend Hashicorp Vault    
-S10 | Configuraciones avanzadas
+S12 | Backend Hashicorp Vault    
+S13 | Configuraciones avanzadas
     SSL Verification
     Estoy detrás de un Forward Proxy
     Leer de múltiples repositorios
-
-Alternativas
+S14 | Alternativas
     K8S y ConfigMap/Secrets
 
 SIMILARES
@@ -89,6 +94,9 @@ https://picodotdev.github.io/blog-bitix/2018/09/recargar-sin-reiniciar-la-config
 Refresh
 https://gist.github.com/dsyer/a43fe5f74427b371519af68c5c4904c7
 
+S05
+https://stackoverflow.com/questions/35165862/is-there-a-way-a-spring-cloud-config-client-can-decrypt-cipher-text-fetched-from
+
 S6
 https://www.baeldung.com/spring-cloud-config-without-git
 
@@ -98,6 +106,7 @@ https://fullstackdeveloper.guru/2021/11/08/how-to-load-aws-secrets-automatically
 S9
 https://refactorizando.com/spring-cloud-config-server-vault-git/
 
+S14
 https://joshgunh.medium.com/spring-cloud-config-vs-kubernetes-configmap-detailed-comparison-bce64b594af8
 
 POWERPOINT
@@ -113,7 +122,3 @@ Miriam
 Nirmala UI
 Source Sans Pro <---
 
-
-
-513-7900
-2 6
